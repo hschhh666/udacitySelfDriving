@@ -1,0 +1,9 @@
+1. beta_simulator_linux 文件夹下的beta_simulator.x86_64是udacity自动驾驶仿真器，给它添加可执行权限后可以运行。运行时选择最低分辨率（640x480）和最低画质（Fastest）。进入页面后根据需求选择自动驾驶模式或者训练模式。
+2. data路径下keraTest.py作用是训练模型，其训练数据来自训练模式中保存的图片（IMG文件夹）和控制集(driving_log.csv)。model.h5是一个已经训练好的模型。drive.py是自动驾驶模式时需要运行的脚本。
+3. 现在这个程序可以直接运行仿真器的自动驾驶模式的，步骤是：1. 命令行python3 drive.py model.h5   2. 打开udacity模拟器，最低分辨率最低画质，自动驾驶模式。正常情况下，小车会自己跑的。
+4. 运行程序时可能会报错，说构建模型的keras版本和当前运行的keras版本不一样，不过这个没问题，程序可以正常运行。
+5. 注意一下顺序，是先运行python脚本，再运行仿真器。
+6. self-driving-car-sim-master文件夹下的文件不知道是干啥的
+7. 使用git lfs管理大文件
+
+更多信息参考https://zhuanlan.zhihu.com/p/27439184
